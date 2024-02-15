@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,300;0,8..144,400;0,8..144,700;1,8..144,400&display=swap");
+
+:root {
+  --background-color: #f0f4f4;
+  --main-Color: #00715d;
+  --second-Color: #9ba8a6;
+  --third-Color: #53615e;
+  --color-Letter: #0f1615;
+  --font-Roboto: "Roboto", sans-serif;
+}
+* {
+  background-color: var(--background-color);
+  margin: auto;
+}
+
+/* Styles */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-style: var(--font-Roboto);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+span {
+  color: var(--main-Color);
+}
+button {
+  height: 2rem;
+  line-height: 0.1rem;
+  width: auto;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0.5rem 0.8rem 0.8rem var(--second-Color);
+  margin-right: 1rem;
+}
+
+.container {
+  background-color: var(--background-color);
+  margin: 0 5rem 0 4rem;
+}
+nav,
+.menu_Navbar,
+header {
+  display: flex;
+  flex-direction: row;
+}
+.logo,
+.menu_Navbar,
+nav,
+a {
+  background-color: var(--main-Color);
+}
+
+/* Main Section */
+nav {
+  justify-content: space-between;
+  height: 4rem;
+}
+.logo {
+  height: 2.5rem;
+  margin-left: 8rem;
+}
+.menu_Navbar {
+  justify-content: space-between;
+  gap: 3rem;
+}
+a {
+  text-decoration: none;
+  color: var(--background-color);
+}
+header {
+  background-color: #53615e;
+  padding: 2rem;
+  max-width: 100%;
+  max-height: auto;
+  flex-wrap: nowrap;
+}
+
+.mainInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  text-align: center;
+  background-color: #00715d;
+  padding: 5rem;
+}
+
+.schedule {
+  color: var(--main-Color);
+  text-align: center;
+}
+
+.btn_Primary {
+  background-color: var(--main-Color);
+  color: var(--background-color);
+  border: none;
+}
+
+.btn_Second {
+  color: var(--color-Letter);
+}
+.figure {
+  position: absolute;
+  top: 22rem;
+  left: -6rem;
+}
+.imagenMain {
+  background-image: url("/assets/imageMainDesktop.png");
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-color: aquamarine;
+}
+/* Movil Responsive Desing - Mian Information */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+  .logo {
+    margin: 0;
+    height: 2rem;
+    align-items: center;
+  }
+  .container {
+    background-color: var(--background-color);
+    margin: 0 5rem 0 4rem;
+  }
+  .menu_Navbar {
+    display: none;
+  }
+
+  nav {
+    height: 2rem;
+    margin: 0;
+  }
+  header {
+    flex-direction: column;
+    margin: 0;
+    background-color: #00715d;
+  }
+  .mainInformation {
+    padding: 1rem;
+  }
+  .imagenMain {
+    background-image: url("/assets/imageMainMovil.png");
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
+}
