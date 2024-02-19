@@ -50,10 +50,10 @@ button {
   margin-right: 1rem;
 }
 
-.container {
+/* .container {
   background-color: var(--background-color);
   margin: 0 5rem 0 4rem;
-}
+} */
 nav,
 .menu_Navbar,
 header {
@@ -85,7 +85,6 @@ a {
   color: var(--background-color);
 }
 header {
-  background-color: #53615e;
   padding: 2rem;
   max-width: 100%;
   max-height: auto;
@@ -98,7 +97,6 @@ header {
   align-items: flex-start;
   gap: 2rem;
   text-align: center;
-  background-color: #00715d;
   padding: 5rem;
 }
 
@@ -124,10 +122,10 @@ header {
 .imagenMain {
   background-image: url("/assets/imageMainDesktop.png");
   width: 100%;
-  height: 650px;
+  height: 500px;
   object-fit: cover;
   background-repeat: no-repeat;
-  margin: 0;
+  padding-left: 2rem;
   background-color: aquamarine;
 }
 /* Movil Responsive Desing - Mian Information */
