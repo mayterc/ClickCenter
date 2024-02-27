@@ -84,8 +84,7 @@ header {
   padding: 2rem;
   max-width: 100%;
   height: auto;
-
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .mainInformation {
@@ -94,9 +93,9 @@ header {
   align-items: flex-start;
   /* gap: 5rem; */
   text-align: center;
-  padding: 3rem;
+  padding: 5rem;
   width: 80%;
-  background-color: #00715d;
+  /* background-color: #00715d; */
 }
 
 .schedule {
@@ -119,7 +118,7 @@ header {
   left: -6rem;
 }
 .imagenMainDesktop {
-  background-color: #9ba8a6;
+  /* background-color: #9ba8a6; */
   margin-right: -10rem;
   max-width: 100%;
 }
@@ -154,6 +153,7 @@ header {
   nav {
     height: 2rem;
     margin: 0;
+    padding: 1rem;
   }
   header {
     flex-direction: column;
@@ -168,17 +168,16 @@ header {
     display: none;
   }
   .imagenMainMovil {
-    visibility: visible;
+    visibility: inherit;
     position: absolute;
-    top: 8rem;
+    top: 15rem;
     right: 1rem;
-    z-index: 0;
   }
   .horario {
-    margin: 8rem 0 100rem 0rem;
+    margin: 10rem 10rem 0rem -2rem;
   }
   .buttons {
-    margin-top: 1rem;
+    margin-top: 10rem;
   }
   .figure {
     top: 13rem;
