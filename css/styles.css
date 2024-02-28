@@ -109,7 +109,8 @@ header {
 }
 
 .imagenMainDesktop,
-.imagenMainMovil {
+.imagenMainMovil,
+.figure {
   background-color: transparent;
   max-width: 100%;
 }
@@ -117,14 +118,12 @@ header {
   color: var(--color-Letter);
 }
 .figure {
+  background-color: transparent;
   position: absolute;
   top: 22rem;
   left: -6rem;
 }
-.imagenMainDesktop {
-  /* background-color: #9ba8a6; */
-  /* margin-right: -10rem; */
-}
+
 .imagenMainMovil {
   display: none;
 }
@@ -145,10 +144,7 @@ header {
     height: 2rem;
     align-items: center;
   }
-  .container {
-    background-color: var(--background-color);
-    margin: 0 5rem 0 4rem;
-  }
+
   .menu_Navbar {
     display: none;
   }
@@ -165,6 +161,7 @@ header {
   }
   .mainInformation {
     width: 100%;
+    padding: 0;
   }
 
   .imagenMainDesktop {
@@ -176,19 +173,20 @@ header {
     position: absolute;
     top: 15rem;
     right: 1rem;
+    width: 60%;
   }
   .horario {
-    margin: 4rem 1rem 0rem 0.5rem;
+    margin: 10rem 1.5rem 0rem 0rem;
   }
   .schedule,
   .days {
     padding-bottom: 1rem;
   }
   .buttons {
-    margin-top: 6rem;
+    margin-top: 9rem;
   }
   .figure {
-    top: 13rem;
+    top: 15rem;
     left: -8rem;
   }
 }
