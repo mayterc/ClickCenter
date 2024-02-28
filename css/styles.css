@@ -173,10 +173,9 @@ header {
     position: absolute;
     top: 15rem;
     right: 1rem;
-    width: 60%;
   }
   .horario {
-    margin: 8rem 1.5rem 0rem 0rem;
+    margin: 8rem 1.5rem 0rem -1rem;
   }
   .schedule,
   .days {
