@@ -11,6 +11,7 @@
 * {
   background-color: var(--background-color);
   margin: auto;
+  box-sizing: border-box;
 }
 
 /* Styles */
@@ -84,18 +85,16 @@ header {
   padding: 2rem;
   max-width: 100%;
   height: auto;
-  /* background-color: aquamarine; */
+  gap: 2rem;
 }
 
 .mainInformation {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* gap: 5rem; */
   text-align: center;
-  padding: 5rem;
-  width: 80%;
-  /* background-color: #00715d; */
+  padding: 2rem;
+  /* width: 60%; */
 }
 
 .schedule {
@@ -109,6 +108,11 @@ header {
   border: none;
 }
 
+.imagenMainDesktop,
+.imagenMainMovil {
+  background-color: transparent;
+  max-width: 100%;
+}
 .btn_Second {
   color: var(--color-Letter);
 }
@@ -119,14 +123,13 @@ header {
 }
 .imagenMainDesktop {
   /* background-color: #9ba8a6; */
-  margin-right: -10rem;
-  max-width: 100%;
+  /* margin-right: -10rem; */
 }
 .imagenMainMovil {
-  visibility: hidden;
+  display: none;
 }
 
-/* Movil Responsive Desing - Mian Information */
+/* Movil Responsive Desing - Main Information */
 @media (max-width: 767px) {
   h1 {
     font-size: 2rem;
@@ -151,16 +154,16 @@ header {
   }
 
   nav {
-    height: 2rem;
+    height: 3.5rem;
     margin: 0;
     padding: 1rem;
+    width: 100%;
   }
   header {
     flex-direction: column;
     margin: 0;
   }
   .mainInformation {
-    padding: 0;
     width: 100%;
   }
 
@@ -168,16 +171,21 @@ header {
     display: none;
   }
   .imagenMainMovil {
-    visibility: inherit;
+    display: block;
+    background-color: transparent;
     position: absolute;
     top: 15rem;
     right: 1rem;
   }
   .horario {
-    margin: 10rem 10rem 0rem -2rem;
+    margin: 4rem 1rem 0rem 0.5rem;
+  }
+  .schedule,
+  .days {
+    padding-bottom: 1rem;
   }
   .buttons {
-    margin-top: 10rem;
+    margin-top: 6rem;
   }
   .figure {
     top: 13rem;
