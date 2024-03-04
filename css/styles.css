@@ -238,7 +238,6 @@ hr {
   left: 50rem;
 }
 .containerCard {
-  /* background-color: #2b2b31; */
   width: 45rem;
   height: 30rem;
   display: grid;
@@ -277,6 +276,6 @@ hr {
 }
 .imgService {
   position: absolute;
-  left: 7rem;
+  left: 9rem;
   bottom: 4rem;
 }
