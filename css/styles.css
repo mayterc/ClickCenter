@@ -278,6 +278,26 @@ hr {
 }
 .imgService {
   position: absolute;
-  left: 10rem;
+  left: 11rem;
   bottom: 4rem;
+}
+
+@media (max-width: 767px) {
+  #servicies {
+    margin-top: -10rem;
+  }
+  .titleServicios {
+    padding-top: -10rem;
+  }
+  .firstLinea {
+    top: 14rem;
+    left: 5rem;
+  }
+  .secondLinea {
+    top: 14rem;
+    left: 5rem;
+  }
+  .containerCard {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
