@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Click Centro Digital</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/6bcb4fc3e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/script/scripts.js"></script>
   </head>
   <body>
     <nav>
       <img class="logo" src="/assets/logo.png" alt="logo" />
       <div class="menu_Navbar">
-        <a href="">Formatos</a>
-        <a href="">Trámites</a>
-        <a href="">Consultas</a>
-        <a href="">Citas</a>
+        <a class="linkNavbar" href="">Formatos</a>
+        <a class="linkNavbar" href="">Trámites</a>
+        <a class="linkNavbar" href="">Consultas</a>
+        <a class="linkNavbar" href="">Citas</a>
       </div>
     </nav>
 
@@ -37,8 +42,24 @@
           <br />
         </div>
         <div class="buttons">
-          <button class="btn_Primary">Whats</button>
-          <button class="btn_Second">Email</button><br />
+          <button class="btn_Primary btnWhats">
+            <a href=" https://wa.me/7121515105">
+              <i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </button>
+          <button class="btn_Second btnEmail">
+            <a
+              href="mailto:ricardocruzmayte@gmail.com?Subject=Enviado%20por%página%20web"
+            >
+              <i class="fa-regular fa-envelope"></i
+            ></a>
+          </button>
+
+          <button class="btn_Second btnTel">
+            <a href="tel: 7121515105">
+              <i class="fa-solid fa-phone-flip"></i
+            ></a>
+          </button>
         </div>
       </div>
       <img
@@ -54,5 +75,12 @@
     </header>
 
     <img class="figure" src="/assets/figuras.png" alt="figuras" />
+
+    <section id="servicies">
+      <h2 class="titleServicios">Servicios</h2>
+      <div class="containerCard">
+        
+      </div>
+    </section>
   </body>
 </html>

@@ -6,10 +6,10 @@
   --second-Color: #9ba8a6;
   --third-Color: #53615e;
   --color-Letter: #0f1615;
+  --color-btn: #2b2b31;
   --font-Roboto: "Roboto", sans-serif;
 }
 * {
-  background-color: var(--background-color);
   margin: auto;
   box-sizing: border-box;
 }
@@ -40,15 +40,16 @@ span {
   color: var(--main-Color);
 }
 button {
-  height: 2rem;
-  line-height: 0.1rem;
   width: auto;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 1rem;
   text-align: center;
   cursor: pointer;
   box-shadow: 0.5rem 0.8rem 0.8rem var(--second-Color);
-  margin-right: 1rem;
+  color: var(--background-color);
+  border: none;
+  /* color: var(--background-color); */
+  /* margin-right: 1rem; */
 }
 
 nav,
@@ -60,7 +61,7 @@ header {
 .logo,
 .menu_Navbar,
 nav,
-a {
+.linkNavbar {
   background-color: var(--main-Color);
 }
 
@@ -94,18 +95,26 @@ header {
   align-items: flex-start;
   text-align: center;
   padding: 2rem;
-  /* width: 60%; */
+  width: 50%;
 }
 
 .schedule {
   color: var(--main-Color);
   text-align: center;
 }
-
+.btn_Primary,
+.btn_Second {
+  width: 6rem;
+  font-size: 1.5rem;
+}
 .btn_Primary {
   background-color: var(--main-Color);
-  color: var(--background-color);
-  border: none;
+}
+
+.btn_Second {
+  background-color: var(--color-btn);
+
+  /* margin-left: 1rem; */
 }
 
 .imagenMainDesktop,
@@ -114,9 +123,7 @@ header {
   background-color: transparent;
   max-width: 100%;
 }
-.btn_Second {
-  color: var(--color-Letter);
-}
+
 .figure {
   background-color: transparent;
   position: absolute;
@@ -124,7 +131,8 @@ header {
   left: -6rem;
 }
 
-.imagenMainMovil {
+.imagenMainMovil,
+.btnTel {
   display: none;
 }
 
@@ -164,11 +172,16 @@ header {
     padding: 0;
   }
 
-  .imagenMainDesktop {
+  .imagenMainDesktop,
+  .btnEmail {
     display: none;
   }
-  .imagenMainMovil {
+  .imagenMainMovil,
+  .btnTel {
     display: block;
+  }
+
+  .imagenMainMovil {
     background-color: transparent;
     position: absolute;
     top: 15rem;
@@ -183,9 +196,61 @@ header {
   }
   .buttons {
     margin-top: 9rem;
+    display: flex;
   }
+  .btnWhats {
+    margin-right: 1rem;
+  }
+
   .figure {
     top: 15rem;
     left: -8rem;
   }
+}
+
+#servicies {
+  background-image: url("/assets/backgroundSectionServices.svg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  height: 100%;
+}
+.titleServicios {
+  font-style: italic;
+  padding-top: 18rem;
+  color: var(--background-color);
+  text-align: center;
+}
+.containerCard {
+  /* background-color: #2b2b31; */
+  width: 45rem;
+  height: 30rem;
+}
+.card {
+  background-color: var(--background-color);
+  width: 12rem;
+  height: 15rem;
+  padding: 1rem;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.imgCard,
+.titleCard,
+.texto {
+  margin-bottom: 0.8rem;
+}
+.imgCard {
+  display: flex;
+  height: 3.5rem;
+  width: 4rem;
+}
+.titleCard {
+  font-weight: 700;
+  text-align: center;
+}
+
+.btnCard {
+  background-color: var(--color-btn);
+  display: block;
+  width: 9rem;
 }
