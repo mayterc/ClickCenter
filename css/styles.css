@@ -213,17 +213,38 @@ header {
   background-repeat: no-repeat;
   min-height: 100%;
   height: 100%;
+  padding-bottom: 5rem;
+  margin-top: -6rem;
+  position: relative;
 }
 .titleServicios {
   font-style: italic;
-  padding-top: 18rem;
+  padding-top: 13rem;
   color: var(--background-color);
   text-align: center;
+}
+hr {
+  position: absolute;
+  height: 2px;
+  width: 20%;
+  background-color: var(--background-color);
+}
+.firstLinea {
+  top: 14rem;
+  left: 15rem;
+}
+.secondLinea {
+  top: 14rem;
+  left: 50rem;
 }
 .containerCard {
   /* background-color: #2b2b31; */
   width: 45rem;
   height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  position: relative;
 }
 .card {
   background-color: var(--background-color);
@@ -232,7 +253,7 @@ header {
   padding: 1rem;
   border-radius: 5%;
   margin-bottom: 1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 .imgCard,
 .titleCard,
@@ -252,5 +273,10 @@ header {
 .btnCard {
   background-color: var(--color-btn);
   display: block;
-  width: 9rem;
+  width: 8rem;
+}
+.imgService {
+  position: absolute;
+  left: 7rem;
+  bottom: 4rem;
 }
