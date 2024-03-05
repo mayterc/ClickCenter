@@ -309,7 +309,7 @@ hr {
   }
   .card {
     width: 9rem;
-    height: 14rem;
+    height: 15rem;
     margin: 0;
   }
   .card:first-child {
@@ -328,7 +328,7 @@ hr {
   }
   .imgService {
     height: 12rem;
-    top: -15rem;
+    top: -16rem;
     left: 1rem;
   }
 }
