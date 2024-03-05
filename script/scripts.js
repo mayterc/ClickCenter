@@ -1,17 +1,16 @@
-fetch("https://randomuser.me/api/?results=6")
-  .then((response) => response.json())
-  .then((data) => {
-    console.log(data.results);
-    crearTarjetas(data.results);
-  });
-function crearTarjetas(usuarios) {
-  let containerCard = document.querySelector(".containerCard");
-  usuarios.forEach((usuarios) => {
-    containerCard.innerHTML += `
+let containerCard = document.querySelector(".containerCard");
+
+function cargarDatos() {
+  fetch("datos.json")
+    .then((respuesta) => respuesta.json())
+    .then((servicios) => {
+      // console.log(respuesta);
+      servicios.forEach((servicios) => {
+        containerCard.innerHTML += `
         <div class="card">
             <div class="titleCards">
-            <img class="imgCard" src="/assets/tramites.png" alt="imgTramites" />
-            <h3 class="titleCard">${usuarios.name.first}</h3>
+            <img class="imgCard" src=${servicios.img} />
+            <h3 class="titleCard">${servicios.title}</h3>
         </div>
 
         <p class="texto">
@@ -20,5 +19,8 @@ function crearTarjetas(usuarios) {
           <button class="btnCard">Ver más</button>
         </div>
         `;
-  });
+      });
+    });
 }
+
+cargarDatos();

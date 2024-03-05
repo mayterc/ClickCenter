@@ -1,6 +1,5 @@
 
-{
-"servicios": [
+[
     {
     "img": "/assets/tramites.png",
     "title": "Trámites",
@@ -31,5 +30,5 @@
     "img": "/assets/mantenimiento.png",
     "title": "Mis servicios",
     "text": "Lorem Mis servicios, dolor sit amet consectetur adipisicing elit. Vitae"
-    }]
-}
+    }
+]

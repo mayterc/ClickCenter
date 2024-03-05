@@ -300,4 +300,11 @@ hr {
   .containerCard {
     grid-template-columns: repeat(2, 1fr);
   }
+  .card{
+    margin-left: 0.8rem;
+  }
+  .imgService {
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
 }
