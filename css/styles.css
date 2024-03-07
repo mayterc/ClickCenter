@@ -113,8 +113,6 @@ header {
 
 .btn_Second {
   background-color: var(--color-btn);
-
-  /* margin-left: 1rem; */
 }
 
 .imagenMainDesktop,
@@ -195,7 +193,8 @@ hr {
   height: 3.5rem;
   width: 4rem;
 }
-.titleCard {
+.titleCard,
+.titleSlider {
   font-weight: 700;
   text-align: center;
 }
@@ -209,6 +208,56 @@ hr {
   position: absolute;
   left: 11rem;
   bottom: 4rem;
+}
+
+.containerCardSlider {
+  background-color: var(--main-Color);
+  display: inline-block;
+  border-radius: 1rem;
+  padding: 1rem;
+  height: 25rem;
+  width: 22.5rem;
+}
+.backgroundCardSlider {
+  background-color: #f0f4f4;
+  width: 20rem;
+  height: 23rem;
+  border-radius: 1rem;
+  position: absolute;
+}
+.containerSlider {
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+  height: 23.5rem;
+  background-color: var(--main-Color);
+  opacity: 0.7;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: var(--background-color);
+}
+
+.titleSlider {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.listaServicies {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+.listaServicies li {
+  margin-bottom: 1rem;
+}
+.iconSlider {
+  margin-right: 0.8rem;
+}
+.imgSlider {
+  max-width: 100%;
+  width: 6rem;
+  position: relative;
+  top: -29.5rem;
+  right: -7rem;
 }
 
 /* Movil Responsive Desing - Main Information */
@@ -274,6 +323,7 @@ hr {
   .buttons {
     margin-top: 9rem;
     display: flex;
+    cursor: pointer;
   }
   .btnWhats {
     margin-right: 1rem;
@@ -319,10 +369,7 @@ hr {
   .card:first-child {
     margin-left: 6rem;
   }
-  .card:last-child {
-    /* margin-right: 10rem; */
-    /* background-color: #; */
-  }
+
   .btnCard {
     width: 7rem;
   }
@@ -330,5 +377,29 @@ hr {
     height: 12rem;
     top: -20rem;
     left: 1rem;
+  }
+  .containerCardSlider {
+    width: 70%;
+  }
+
+  .backgroundCardSlider {
+    width: 60%;
+  }
+  .containerSlider {
+    width: 100;
+    padding: 1rem;
+  }
+  .titleSlider {
+    font-size: 90%;
+    margin-bottom: 1rem;
+  }
+  .listaServicies li {
+    font-size: 80%;
+  }
+
+  .imgSlider {
+    width: 35%;
+    top: -28.5rem;
+    right: -5rem;
   }
 }

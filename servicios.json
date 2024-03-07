@@ -1,0 +1,101 @@
+[
+  {
+    "titulo": "Trámites Vehiculares",
+    "servicie": {
+      "servicio1": "Baja de placas",
+      "servicio2": "Reemplacamiento",
+      "servicio3": "Alta de vehículo nuevo",
+      "servicio4": "Alta de vehículo otro Edo.",
+      "servicio5": "Vehículos importados ",
+      "servicio6": "Cambio de propietario",
+      "servicio7": "Reposición de Tarjeta",
+      "servicio8": "Vehículos Ciudad de Méx."
+    },
+    "iconSlider": "/assets/carro.png"
+  },
+  {
+    "titulo": "Trámites IMSS",
+    "servicie": {
+      "servicio1": "Asignación de NSS",
+      "servicio2": "Localización de NSS",
+      "servicio3": "Constancia de vigencia de derechos",
+      "servicio4": "Semanas cotizadas",
+      "servicio5": "Reimpresión de cartilla ",
+      "servicio6": "Cambio de clínica o UMF",
+      "servicio7": "Actualización de CURP"
+    },
+    "iconSlider": "/assets/imss.png"
+  },
+  {
+    "titulo": "Trámites ISSTE e ISSEMyM",
+    "servicie": {
+      "servicio1": "Acreditación de no afiliación",
+      "servicio2": "Comprobante de pago a pensionista",
+      "servicio3": "Comprobante de pago electrónico",
+      "servicio4": "Citas Administrativas"
+    },
+    "iconSlider": "/assets/isste.png"
+  },
+  {
+    "titulo": "Trámites SAT",
+    "servicie": {
+      "servicio1": "Opinión de cumplimiento D32",
+      "servicio2": "Constancia de situación fiscal",
+      "servicio3": "Aviso de actualización de actividades",
+      "servicio4": "Citas"
+    },
+    "iconSlider": "/assets/sat.png"
+  },
+  {
+    "titulo": "Certificados y Constancias",
+    "servicie": {
+      "servicio1": "Informe de NO antedecentes penales",
+      "servicio2": "Constancias de extravios (placas, licencia, pasaporte,tarjeta de circulacióm )",
+      "servicio3": "Consulta de REPUVE",
+      "servicio4": "Consulta de póliza vigente AMIS",
+      "servicio5": "Certificado de NO Deudor Alimentario Moroso",
+      "servicio6": "Certificadosde pagos de Tenendai CdMx",
+      "servicio7": "Acta de Nacimiento"
+    },
+    "iconSlider": "/assets/certificado.png"
+  },
+  {
+    "titulo": "Citas",
+    "servicie": {
+      "servicio1": "Licencia para conducir EdoMex",
+      "servicio2": "Pasaporte Méxicano",
+      "servicio3": "Trámites pasaporte USA",
+      "servicio4": "INE",
+      "servicio5": "Verificación vehicular",
+      "servicio6": "Tribunal agrario",
+      "servicio7": "Poder Judicial Federal"
+    },
+    "iconSlider": "/assets/cita.png"
+  },
+  {
+    "titulo": "Formatos",
+    "servicie": {
+      "servicio1": "REPUVE",
+      "servicio2": "Referendo (particular y servicio público",
+      "servicio3": "Tenencia (particular y servicio público",
+      "servicio4": "Licencia para conducir",
+      "servicio5": "Predial",
+      "servicio6": "Infracción de tránsito",
+      "servicio7": "Multa de verificación extemporánea"
+    },
+    "iconSlider": "/assets/form.png"
+  },
+
+  {
+    "titulo": "Otros Trámites",
+    "servicie": {
+      "servicio1": "Expedición de cédula profesional electrónica",
+      "servicio2": "Firma Electrónica Judicial (EdoMéx)",
+      "servicio3": "Trámite de visa USA",
+      "servicio4": "eTA Cánada",
+      "servicio5": "Solitudes a Programas Sociales",
+      "servicio6": "Solitudes a Becas escolars EdoMéx"
+    },
+    "iconSlider": "/assets/otros.png"
+  }
+]

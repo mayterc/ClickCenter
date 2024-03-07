@@ -1,34 +1,33 @@
-
 [
-    {
+  {
     "img": "/assets/tramites.png",
     "title": "Trámites",
     "text": "Tramites, dolor sit amet consectetur adipisicing elit. Vitae"
-    },
-    {
+  },
+  {
     "img": "/assets/consulta.png",
     "title": "Consultas",
     "text": "Consultas, dolor sit amet consectetur adipisicing elit. Vitae"
-    },
+  },
 
-    {
+  {
     "img": "/assets/calendario.png",
     "title": "Citas",
     "text": "Lorem Citas, dolor sit amet consectetur adipisicing elit. Vitae"
-    },
-    {
+  },
+  {
     "img": "/assets/formatos.png",
     "title": "Formatos",
     "text": "Lorem Formatos, dolor sit amet consectetur adipisicing elit. Vitae"
-    },
-    {
+  },
+  {
     "img": "/assets/tramites.png",
     "title": "Servicios",
     "text": "Lorem Servicios, dolor sit amet consectetur adipisicing elit. Vitae"
-    },
-    {
+  },
+  {
     "img": "/assets/mantenimiento.png",
     "title": "Mis servicios",
     "text": "Lorem Mis servicios, dolor sit amet consectetur adipisicing elit. Vitae"
-    }
+  }
 ]
